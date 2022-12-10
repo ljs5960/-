@@ -6,7 +6,7 @@
 - Do it! 알고리즘 코딩 테스트 자바 편  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/DoIt!%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_Java)  
 (http://www.yes24.com/Product/Goods/108571508)  
 
-- 자바 ORM 표준 JPA 프로그래밍  [작업중...]  
+- 자바 ORM 표준 JPA 프로그래밍  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/%EC%9E%90%EB%B0%94%20ORM%20%ED%91%9C%EC%A4%80%20JPA%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)     
 (http://www.yes24.com/Product/Goods/19040233)
 
 
