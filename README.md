@@ -3,10 +3,10 @@
 ## 독서중.ing
 - Java의 정석  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/Java%EC%9D%98%20%EC%A0%95%EC%84%9D/06.%20%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%201)  
 (http://www.yes24.com/Product/Goods/24259565)
-- Do it! 알고리즘 코딩 테스트 자바 편  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/DoIt!%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_Java)
+- Do it! 알고리즘 코딩 테스트 자바 편  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/DoIt!%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_Java)  
 (http://www.yes24.com/Product/Goods/108571508)  
 
-- 자바 ORM 표준 JPA 프로그래밍  [작업중...]
+- 자바 ORM 표준 JPA 프로그래밍  [작업중...]  
 (http://www.yes24.com/Product/Goods/19040233)
 
 
@@ -25,7 +25,7 @@
 (http://www.yes24.com/Product/Goods/12246033)
 - 리팩터링 2판  
 (http://www.yes24.com/Product/Goods/89649360)
-- 엔터프라이즈 애플리케이션 아키텍처 패턴
+- 엔터프라이즈 애플리케이션 아키텍처 패턴  
 (http://www.yes24.com/Product/Goods/22384677)
 - 실용주의 프로그래머  
 (http://www.yes24.com/Product/Goods/107077663)
@@ -69,11 +69,11 @@
 (http://www.yes24.com/Product/Goods/77125987)
 - 코딩 개념 잡는 자바 코딩 문제집  
 (http://www.yes24.com/Product/Goods/113416654)
-- 자바로 배우는 핵심 자료구조와 알고리즘
+- 자바로 배우는 핵심 자료구조와 알고리즘  
 (http://www.yes24.com/Product/Goods/61198657)
-- 학교에서 알려주지 않는 17가지 실무 개발 기술
+- 학교에서 알려주지 않는 17가지 실무 개발 기술  
 (http://www.yes24.com/Product/Goods/89906094)
-- 헤드 퍼스트 디자인 패턴  
+- 헤드 퍼스트 디자인 패턴    
 (http://www.yes24.com/Product/Goods/108192370)
-- 자바와 JUnit을 활용한 실용주의 단위 테스트
+- 자바와 JUnit을 활용한 실용주의 단위 테스트  
 (http://www.yes24.com/Product/Goods/75189146)
