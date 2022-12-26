@@ -9,6 +9,8 @@
 - 자바 ORM 표준 JPA 프로그래밍  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/%EC%9E%90%EB%B0%94%20ORM%20%ED%91%9C%EC%A4%80%20JPA%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)     
 (http://www.yes24.com/Product/Goods/19040233)
 
+- 코드로 배우는 스프링부트 웹 프로젝트 [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/%EC%BD%94%EB%93%9C%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%20%EC%9B%B9%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)   
+(http://www.yes24.com/Product/Goods/96051853)
 
 ## 추천 도서
 - 이펙티브 자바 Effective Java 3/E  
