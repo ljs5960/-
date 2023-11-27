@@ -1,17 +1,7 @@
 # 📚 개발 관련 도서 정리 목록
 
 ## 독서중.ing
-- Java의 정석  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/Java%EC%9D%98%20%EC%A0%95%EC%84%9D/06.%20%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%201)  
-(http://www.yes24.com/Product/Goods/24259565)
-- Do it! 알고리즘 코딩 테스트 자바 편  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/DoIt!%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_Java)  
-(http://www.yes24.com/Product/Goods/108571508)  
-
-- 자바 ORM 표준 JPA 프로그래밍  [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/%EC%9E%90%EB%B0%94%20ORM%20%ED%91%9C%EC%A4%80%20JPA%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)     
-(http://www.yes24.com/Product/Goods/19040233)
-
-- 코드로 배우는 스프링부트 웹 프로젝트 [[GitHub]](https://github.com/ljs5960/MyBookList/tree/main/%EC%BD%94%EB%93%9C%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%20%EC%9B%B9%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)   
-(http://www.yes24.com/Product/Goods/96051853)
-
+- [모던 자바스크립트 Deep Dive](https://github.com/ljs5960/MyBookList/tree/main/%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20Deep%20Dive/contents)
 ## 추천 도서
 - 이펙티브 자바 Effective Java 3/E  
 (http://www.yes24.com/Product/Goods/65551284)
