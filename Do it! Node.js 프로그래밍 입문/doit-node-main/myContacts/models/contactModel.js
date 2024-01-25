@@ -24,4 +24,4 @@ const contactsShcema = new mongoose.Schema(
 const Contact = mongoose.model("Contact", contactsShcema);
 
 // module로 export하기 위해 const Contact로 변수에 할당
-moduls.exports = Contact;
+module.exports = Contact;

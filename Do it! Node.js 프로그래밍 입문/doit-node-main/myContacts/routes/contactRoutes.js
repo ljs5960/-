@@ -1,31 +1,17 @@
 const express = require('express');
 const router = express.Router();
+const {getAllContacts, createContact, getContact, updateContact, deleteContact} = require('../controllers/contactController');
 
 // Middleware(router) 방식
-router.route('/')
-    .get((req, res) => {
-        res.send('This is Contacts Page');
-    })
-    .post((req, res) => {
-        console.log(req.body)
-        const {name, email, phone} = req.body;
+router
+    .route('/')
+    .get(getAllContacts)
+    .post(createContact);
 
-        if (!name || !email || !phone) {
-            return res.send('Input Value Error!');
-        }
-
-        res.send(`Contacts Created!`);
-    })
-
-router.route('/:id')
-    .get((req, res) => {
-        res.send(`Create Contacts for ID: ${req.params.id}`);
-    })
-    .put((req, res) => {
-        res.send(`Update Contacts for ID: ${req.params.id}`);
-    })
-    .delete((req, res) => {
-        res.send(`Delete Contacts for ID: ${req.params.id}`);
-    })
+router
+    .route('/:id')
+    .get(getContact)
+    .put(updateContact)
+    .delete(deleteContact);
 
 module.exports = router;
