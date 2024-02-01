@@ -26,4 +26,25 @@ app.post('/register', async(req, res) => {
     }
 });
 
+app.post('/login', (req, res) => {
+    User.findOne({email: req.body.email}, (err, user) => {
+        if (!user) {
+            return res.json({
+                loginSuccess: false,
+                message: 'User Not Found!'
+            });
+        }
+
+        user.comparePassword(req.body.password, (err, isMatch) => {
+            if (!isMatch) {
+                return res.json({loginSuccess: false, message: 'Incorrect Password!'});
+            } else {
+                user.generateToken((err, user) => {
+
+                });
+            }
+        });
+    });
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
