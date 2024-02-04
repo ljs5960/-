@@ -54,23 +54,42 @@ userSchema.pre('save', function(next) {
 
 userSchema.methods.comparePassword = function(plainPassword, cb) {
     bcrypt.compare(plainPassword, this.password, function(err, ismatch) {
-        if (err) return cb(err);
+        if (err) return cb(err),
         cb(null, ismatch);
-    })
+    });
 }
 
-userSchema.methods.generateToken = function (cb) {
+userSchema.methods.generateToken = function(cb) {
     var user = this;
 
-    var token = jwt.sign(user._id, 'secretToken');
+    // Generate Token
+    var token = jwt.sign(user._id.toHexString(), 'secretToken');
+
+    // Initialize token value of User
     user.token = token;
     
+    // Save User info
     user.save(function(err, user) {
         if (err) {
             return cb(err);
         } else {
             cb(null, user);
         }
+    });
+}
+
+userSchema.statics.findByToken = function(tone, callback) {
+    var user = this;
+
+    // Decode Token
+    jwt.verify(token, 'secretToken', function(err, decoded) {
+        user.findOne({
+            "_id": decoded,
+            "token": token
+        }, function(err, user) {
+            if (err) return callback(err);
+            else return callback(null, user);
+        });
     });
 }
 
