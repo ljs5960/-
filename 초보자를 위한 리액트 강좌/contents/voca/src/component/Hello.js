@@ -1,10 +1,22 @@
-import World from '../component/World';
-
 export default function Hello() {
-    return (
-        <div>
-            <h1>Hello!</h1>
-            <World />
-        </div>
-    )
+  function showName() {
+    console.log('Mike');
+  }
+
+  function showAge(age) {
+    console.log(age);
+  }
+
+  return (
+    <div>
+      <h1>Hello</h1>
+      <button onClick={showName}>Show name</button>
+      <button onClick={() => {
+        showAge(401);
+      }}>Show age</button>
+      <input type='text' onChange={(e) => {
+        console.log(e.target.value);
+      }} />
+    </div>
+  );
 }
