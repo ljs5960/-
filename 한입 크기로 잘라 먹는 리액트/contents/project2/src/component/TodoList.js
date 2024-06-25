@@ -1,6 +1,6 @@
 import TodoItem from './TodoItem';
 import './TodoList.css';
-import {useState} from "react";
+import {useMemo, useState} from "react";
 
 const TodoList = ({ todo, onUpdate, onDelete }) => {
     const [search, setSearch] = useState('');
@@ -14,9 +14,27 @@ const TodoList = ({ todo, onUpdate, onDelete }) => {
             : todo.filter((it) => it.content.toLocaleLowerCase().includes(search.toLocaleLowerCase()));
     };
 
+    const analyzeTodo = useMemo(() => {
+        const totalCount = todo.length;
+        const doneCount = todo.filter((it) => it.isDone).length;
+        const notDoneCount = totalCount - doneCount;
+        return {
+            totalCount,
+            doneCount,
+            notDoneCount,
+        };
+    }, [todo]);
+
+    const { totalCount, doneCount, notDoneCount } = analyzeTodo;
+
     return (
         <div className='TodoList'>
             <h4>Todo List</h4>
+            <div>
+                <div>TotalCount: {totalCount}</div>
+                <div>DoneCount: {doneCount}</div>
+                <div>NotDoneCount: {notDoneCount}</div>
+            </div>
             <input
                 value={search}
                 onChange={onChangeSearch}
